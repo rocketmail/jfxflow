@@ -43,8 +43,7 @@ public class NavigationToolbarSkin implements Skin
 
     protected void buildView()
     {
-        root = new HBox();
-        root.spacingProperty().bind(navigationToolbar.spacingProperty());
+        root = new HBox(4);
 
         homeButton = new Button("Home");
         homeButton.getStyleClass().add("home");

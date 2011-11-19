@@ -30,9 +30,5 @@ public interface Controller<ViewType extends Node, PlaceType extends Place>
 
     void deactivate();
 
-    boolean isBusy();
-
-    void setBusy(boolean busy);
-
     BooleanProperty busyProperty();
 }
